@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('run') {
             steps {
-                echo 'stevie was here'
+                echo 'stevie was here and doing something on jenkins'
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
